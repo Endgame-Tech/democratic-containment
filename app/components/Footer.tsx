@@ -14,7 +14,7 @@ export default function Footer() {
           <h4>Resources</h4>
           <ul>
             <li><Link href="/key-findings">Key Findings</Link></li>
-            <li><a href="#">Download Report (PDF)</a></li>
+            <li><Link href="/download">Download Report (PDF)</Link></li>
             <li><a href="#">Share This Report</a></li>
             <li><a href="#">Citation Guide</a></li>
           </ul>

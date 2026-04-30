@@ -57,7 +57,7 @@ export default function Navigation() {
         </nav>
 
         <Link
-          href="#"
+          href="/download"
           className="nav-cta-desktop"
           style={{ background: 'var(--gold)', color: 'var(--warm-black)', padding: '0.75rem 1.75rem', borderRadius: '50px', textDecoration: 'none', fontWeight: 700, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.5px', boxShadow: '0 4px 15px rgba(255,184,28,0.3)' }}
         >
@@ -82,7 +82,7 @@ export default function Navigation() {
         <Link href="/" onClick={() => setMenuOpen(false)} style={{ display: 'block', padding: '1rem 2rem', textDecoration: 'none', color: '#333', fontSize: '1rem', fontWeight: 600, borderBottom: '1px solid #f0f0f0' }}>Home</Link>
         <Link href="/key-findings" onClick={() => setMenuOpen(false)} style={{ display: 'block', padding: '1rem 2rem', textDecoration: 'none', color: '#333', fontSize: '1rem', fontWeight: 600, borderBottom: '1px solid #f0f0f0' }}>Key Findings</Link>
         <Link href="/#audiences" onClick={() => setMenuOpen(false)} style={{ display: 'block', padding: '1rem 2rem', textDecoration: 'none', color: '#333', fontSize: '1rem', fontWeight: 600, borderBottom: '1px solid #f0f0f0' }}>Audiences</Link>
-        <Link href="#" onClick={() => setMenuOpen(false)} style={{ display: 'block', margin: '1rem 2rem', padding: '0.9rem 2rem', background: 'var(--gold)', color: 'var(--warm-black)', borderRadius: '50px', textDecoration: 'none', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', textAlign: 'center', letterSpacing: '0.5px' }}>Download Report</Link>
+        <Link href="/download" onClick={() => setMenuOpen(false)} style={{ display: 'block', margin: '1rem 2rem', padding: '0.9rem 2rem', background: 'var(--gold)', color: 'var(--warm-black)', borderRadius: '50px', textDecoration: 'none', fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', textAlign: 'center', letterSpacing: '0.5px' }}>Download Report</Link>
       </div>
     </header>
   )

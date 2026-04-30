@@ -903,7 +903,7 @@ export default function KeyFindingsPage() {
       <p>Download the complete Democratic Containment report with detailed case studies, empirical documentation, and the strategic roadmap for transformation.</p>
       <div className="download-buttons">
         <Link href="/key-findings" className="download-btn">Key Findings</Link>
-        <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+        <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
       </div>
     </div>
   </div>

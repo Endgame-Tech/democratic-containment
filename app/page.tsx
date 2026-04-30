@@ -17,7 +17,7 @@ export default function Home() {
       </p>
       <div className="hero-cta">
         <Link href="/key-findings" className="cta-primary">Key Findings</Link>
-        <a href="#" className="cta-secondary">Download Report</a>
+        <Link href="/download" className="cta-secondary">Download Report</Link>
       </div>
     </div>
   </section>

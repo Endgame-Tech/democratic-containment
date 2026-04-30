@@ -62,7 +62,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -128,7 +128,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -210,7 +210,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -302,7 +302,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -384,7 +384,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -461,7 +461,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -550,7 +550,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -638,7 +638,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -719,7 +719,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -835,7 +835,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -945,7 +945,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -1084,7 +1084,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
@@ -1200,7 +1200,7 @@ export const audienceContent: Record<string, { content: ReactNode }> = {
     <p>Download the full Democratic Containment report—free, no registration required.</p>
     <div className="download-buttons">
       <Link href="/key-findings" className="download-btn">Key Findings</Link>
-      <a href="#" className="download-btn-outline">Download Free Report (PDF)</a>
+      <Link href="/download" className="download-btn-outline">Download Free Report (PDF)</Link>
     </div>
   </div>
       </>
