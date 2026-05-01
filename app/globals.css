@@ -615,6 +615,167 @@ body {
   width: 100%;
 }
 
+/* Share Section */
+.share-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, white 100%);
+  padding: 4rem 1.5rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.share-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.share-heading {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  color: var(--charcoal);
+  margin-bottom: 1rem;
+}
+
+.share-subtitle {
+  font-size: 1.15rem;
+  color: #555;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.share-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 5px solid var(--gold);
+}
+
+.share-card-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.share-card-title--gold {
+  color: var(--amber);
+}
+
+.share-card-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  font-size: 0.95rem;
+}
+
+.share-btn:hover {
+  transform: translateY(-3px);
+}
+
+.share-btn--twitter {
+  background: #1DA1F2;
+  box-shadow: 0 4px 15px rgba(29, 161, 242, 0.3);
+}
+.share-btn--twitter:hover {
+  box-shadow: 0 6px 25px rgba(29, 161, 242, 0.5);
+}
+
+.share-btn--linkedin {
+  background: #0A66C2;
+  box-shadow: 0 4px 15px rgba(10, 102, 194, 0.3);
+}
+.share-btn--linkedin:hover {
+  box-shadow: 0 6px 25px rgba(10, 102, 194, 0.5);
+}
+
+.share-btn--facebook {
+  background: #1877F2;
+  box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
+}
+.share-btn--facebook:hover {
+  box-shadow: 0 6px 25px rgba(24, 119, 242, 0.5);
+}
+
+.share-btn--whatsapp {
+  background: #25D366;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+.share-btn--whatsapp:hover {
+  box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+}
+
+.share-copy-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.share-copy-label {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.share-copy-row {
+  display: flex;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.share-copy-input {
+  flex: 1;
+  padding: 0.85rem 1.25rem;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #f8f9fa;
+  min-width: 0;
+}
+
+.share-copy-btn {
+  background: var(--charcoal);
+  color: white;
+  padding: 0.85rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.share-copy-btn:hover {
+  background: #000;
+}
+
+.share-copy-status {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--emerald);
+  display: none;
+}
+
 /* About Mandate4 Section - Key Findings Page */
 .about-mandate4-findings {
   background: white;
@@ -2098,6 +2259,55 @@ footer {
   color: var(--gold);
 }
 
+/* Share Section — mobile */
+@media (max-width: 768px) {
+  .share-section {
+    padding: 3rem 1rem;
+  }
+
+  .share-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .share-card {
+    padding: 1.5rem 1rem;
+    border-left-width: 4px;
+  }
+
+  .share-card-title {
+    font-size: 1.25rem;
+  }
+
+  .share-card-desc {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .share-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .share-btn {
+    justify-content: center;
+    padding: 0.9rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .share-copy-row {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .share-copy-btn {
+    width: 100%;
+    padding: 0.85rem;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-content {
     grid-template-columns: 1fr;
@@ -2152,6 +2362,41 @@ footer {
 
   .about-mandate4 {
     padding: 3rem 1.25rem;
+  }
+
+  .about-mandate4 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-logo-img {
+    height: 60px;
+  }
+
+  .about-lead {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-mission {
+    padding: 1.5rem 1.25rem;
+    margin: 1.5rem 0;
+  }
+
+  .about-mission p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .about-cta-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-link {
+    font-size: 1rem;
   }
 
   .audience-grid {
